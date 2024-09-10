@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkatha Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/sharo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="row">
+                <div class="header-text">
+                    <h6>Hi, There!</h6>
+                    <h1>I'm <span>Sharon</span> <span>Nkatha</span></h1>
+                    <p>Software Engineer</p>
+                    <p>Passionate about turning ideas into digital reality.</p>
+
+                    <div class="action-btns">
+                        <a href="#"><button class="hire-me">Hire Me</button></a>
+                        <a href="#"><button class="downloadcv">Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="box">
+                        <div class="content">
+                            <img src="images/code.jpg" alt="Profile Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi there! I'm Sharon Nkatha, a creative web developer passionate about crafting captivating online experiences. With skills in UI/UX design, web development using languages like JavaScript (JS) and Python, and data science, I bring ideas to life and turn data into insights.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><p>Designing captivating web interfaces</p></li>
+                            <li><span>Full-stack Web Developer</span><p>Creating dynamic web applications using JS and Python</p></li>
+                            <li><span>Data Scientist</span><p>Turning data into useful insights</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><p>Crafting user-centric web interfaces</p></li>
+                            <li><span>Full-stack Web Developer</span><p>Contributing to diverse web development projects using JS and Python</p></li>
+                            <li><span>Data Scientist</span><p>Applying data-driven insights to enhance decision-making</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>PLP.org</span><p>Completed web development course</p></li>
+                            <!-- Add more education items if needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:sharon@example.com">nkathasharon42@gmail.com</a></li>
+                        <li><a href="tel:+123456789">0113325992</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/yourprofile"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/in/yourprofile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/yourprofile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p>&copy; 2024 Sharon Nkatha. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+              
